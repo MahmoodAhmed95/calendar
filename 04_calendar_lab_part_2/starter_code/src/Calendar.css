@@ -1,0 +1,29 @@
+.Calendar {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.Calendar h1 {
+  margin-bottom: 20px;
+}
+
+.CalendarGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.CalendarCell {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.DayName {
+  font-weight: bold;
+}
+
+.DateNumber {
+  margin-top: 5px;
+}
